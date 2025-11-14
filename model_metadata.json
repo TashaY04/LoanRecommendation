@@ -1,0 +1,46 @@
+{
+    "model_type": "XGBoost Classifier",
+    "training_date": "2025-11-14 09:37:13",
+    "n_samples": 8000,
+    "n_features": 19,
+    "test_accuracy": 0.91875,
+    "test_precision": 0.940278699402787,
+    "test_recall": 0.9725463280713795,
+    "test_f1": 0.956140350877193,
+    "test_roc_auc": 0.9441615351018233,
+    "best_params": {
+        "colsample_bytree": 0.9,
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "n_estimators": 200,
+        "subsample": 0.9
+    },
+    "feature_names": [
+        "Age",
+        "Annual_Income",
+        "CIBIL_Score",
+        "Employment_Type",
+        "Work_Experience_Years",
+        "Loan_Amount_Requested",
+        "Loan_Purpose",
+        "Existing_Loans",
+        "Credit_History_Years",
+        "Monthly_Debt",
+        "Dependents",
+        "Education_Level",
+        "Property_Ownership",
+        "City_Tier",
+        "Monthly_Income",
+        "Debt_to_Income_Ratio",
+        "Loan_to_Income_Ratio",
+        "Age_Income_Product",
+        "Experience_to_Age_Ratio"
+    ],
+    "categorical_features": [
+        "Employment_Type",
+        "Loan_Purpose",
+        "Education_Level",
+        "Property_Ownership"
+    ]
+}
