@@ -221,6 +221,10 @@ def load_model_artifacts():
             metadata = json.load(f)
         feature_importance = pd.read_csv('feature_importance.csv')
         return model, scaler, label_encoders, metadata, feature_importance
+        artifacts = load_model_artifacts()
+        if artifacts is None:
+            st.stop()
+        model, scaler, label_encoders, metadata, feature_importance = artifacts
     except FileNotFoundError as e:
         st.error(f"Model files not found: {str(e)}")
         st.stop()
