@@ -209,11 +209,21 @@ st.markdown("""
 # ============================================================================
 @st.cache_resource
 def load_model_artifacts():
-    """Load all necessary model artifacts"""
+    import os
+    import subprocess
+    if not os.path.exists('loan_eligibility_model.pkl'):
+        subprocess.run(['python', 'train_model.py'], check=True)
     try:
         model = joblib.load('loan_eligibility_model.pkl')
-model, scaler, label_encoders, metadata, feature_importance = load_model_artifacts()
-
+        scaler = joblib.load('scaler.pkl')
+        label_encoders = joblib.load('label_encoders.pkl')
+        with open('model_metadata.json', 'r') as f:
+            metadata = json.load(f)
+        feature_importance = pd.read_csv('feature_importance.csv')
+        return model, scaler, label_encoders, metadata, feature_importance
+    except FileNotFoundError as e:
+        st.error(f"Model files not found: {str(e)}")
+        st.stop()
 # ============================================================================
 # HELPER FUNCTIONS
 # ============================================================================
