@@ -7,9 +7,6 @@
   an interactive analytics dashboard.
 </p>
 
-<p align="left">
-  <img src="docs/images/banner.png" alt="LoanEase Banner" width="100%">
-</p>
 
 <p align="center">
 
