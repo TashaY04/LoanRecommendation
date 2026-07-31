@@ -1,7 +1,11 @@
-# 💳 LoanEase
-### AI-Powered Loan Eligibility & Recommendation Platform
+<h1 align="center">💳 LoanEase</h1>
+<h3 align="center">AI-Powered Loan Eligibility & Recommendation Platform</h3>
 
-> An intelligent fintech platform that leverages Machine Learning to predict loan eligibility, estimate approval probability, and provide personalized financial recommendations through an interactive analytics dashboard.
+<p align="center">
+  An intelligent fintech platform that leverages Machine Learning to predict loan eligibility,<br>
+  estimate approval probability, and deliver personalized financial recommendations through<br>
+  an interactive analytics dashboard.
+</p>
 
 <p align="center">
   <img src="docs/images/banner.png" alt="LoanEase Banner" width="100%">
@@ -15,141 +19,91 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Visualization-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Accuracy](https://img.shields.io/badge/Accuracy-95%25+-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
+</p>
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-key-features">Features</a> •
+  <a href="#-model-performance">Performance</a> •
+  <a href="#-system-architecture">Architecture</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-future-enhancements">Roadmap</a>
 </p>
 
 ---
 
-# 📖 Overview
+## 📖 Overview
 
-LoanEase is an AI-powered financial decision support platform designed to simplify the loan application process by predicting applicant eligibility and recommending suitable loan options based on an individual's financial profile.
+**LoanEase** is an AI-powered financial decision-support platform designed to simplify the loan
+application process by predicting applicant eligibility and recommending suitable loan options
+based on an individual's financial profile.
 
-Powered by an optimized **XGBoost classifier** trained on **8,000+ loan application records**, the system achieves **95%+ prediction accuracy** through advanced feature engineering, Grid Search hyperparameter tuning, and 5-fold cross-validation. The application combines predictive analytics with interactive visualizations to provide fast, explainable, and privacy-focused lending insights.
+Powered by an optimized **XGBoost classifier** trained on **8,000+ loan application records**,
+the system achieves **95%+ prediction accuracy** through advanced feature engineering, Grid
+Search hyperparameter tuning, and 5-fold cross-validation. The application combines predictive
+analytics with interactive visualizations to deliver fast, explainable, and privacy-focused
+lending insights.
 
 ---
 
-# 🎯 Why LoanEase?
+## 🎯 Why LoanEase?
 
-Traditional loan approval processes are often time-consuming, difficult to interpret, and lack transparency for applicants.
-
-LoanEase addresses these challenges by offering:
+Traditional loan approval processes are often slow, opaque, and hard for applicants to interpret.
+LoanEase addresses these gaps by offering:
 
 - ⚡ Instant loan eligibility prediction
 - 🤖 AI-powered decision support
 - 📊 Confidence scores and explainable insights
 - 💰 EMI estimation and financial analysis
 - 📈 Interactive dashboards
-- 🔒 Privacy-first local inference
-- 💡 Personalized recommendations for improving eligibility
+- 🔒 Privacy-first, local inference
+- 💡 Personalized recommendations to improve eligibility
 
 ---
 
-# ✨ Key Features
+## ✨ Key Features
+
+<p align="center">
+  <img src="docs/images/features_overview.svg" alt="LoanEase Key Features" width="100%">
+</p>
 
 | Feature | Description |
-|----------|-------------|
+|---|---|
 | 🤖 AI Eligibility Prediction | Predicts loan approval using an optimized XGBoost model |
 | 📊 Confidence Analysis | Displays approval probability and confidence score |
 | 💰 EMI Calculator | Estimates monthly repayments instantly |
 | 📈 Interactive Analytics | Plotly-based charts and probability gauges |
 | 💡 Smart Recommendations | Personalized financial guidance based on applicant profile |
 | 🔍 Feature Importance | Shows key factors influencing the prediction |
-| 📄 Downloadable Report | Generate a personalized eligibility report |
+| 📄 Downloadable Report | Generates a personalized eligibility report |
 | 🔒 Privacy First | No personal information is stored |
 
 ---
 
-# 🧠 Machine Learning Highlights
+## 🧠 Machine Learning Highlights
 
 | Attribute | Details |
-|------------|---------|
+|---|---|
 | Algorithm | XGBoost Classifier |
-| Dataset Size | 8,000+ Loan Applications |
+| Dataset Size | 8,000+ loan applications |
 | Accuracy | **95%+** |
-| Feature Engineering | 18+ Engineered Financial Features |
+| Feature Engineering | 18+ engineered financial features |
 | Hyperparameter Tuning | Grid Search CV |
-| Validation | 5-Fold Cross Validation |
+| Validation | 5-fold cross-validation |
 | Metrics | Accuracy • Precision • Recall • F1 • ROC-AUC |
 
 ---
 
-# 🏗 System Architecture
+## 📊 Model Performance
 
-> *(Professional architecture diagram coming soon.)*
-
-```text
-User
-   │
-   ▼
-Streamlit Interface
-   │
-Input Validation
-   │
-Feature Engineering
-   │
-XGBoost Prediction Engine
-   │
-Probability Analysis
-   │
-Recommendation Engine
-   │
-Analytics Dashboard
-   │
-Download Report
-```
-
----
-
-# 🔄 Project Workflow
-
-```text
-Applicant Information
-          │
-          ▼
-Input Validation
-          │
-          ▼
-Data Preprocessing
-          │
-          ▼
-Feature Engineering
-          │
-          ▼
-Machine Learning Prediction
-          │
-          ▼
-Probability & Confidence Analysis
-          │
-          ▼
-Loan Recommendation
-          │
-          ▼
-Interactive Dashboard
-          │
-          ▼
-Personalized Report
-```
-
----
-
-# 💻 Technology Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Programming | Python |
-| Frontend | Streamlit |
-| Machine Learning | XGBoost, Scikit-learn |
-| Data Processing | Pandas, NumPy |
-| Visualization | Plotly, Matplotlib |
-| Model Optimization | Grid Search CV |
-| Validation | 5-Fold Cross Validation |
-
----
-
-# 📊 Model Performance
+<p align="center">
+  <img src="docs/images/accuracy_metrics.svg" alt="Model Performance Metrics" width="90%">
+</p>
 
 | Metric | Score |
-|---------|------|
+|---|---|
 | Accuracy | **95.13%** |
 | Precision | **94.56%** |
 | Recall | **96.12%** |
@@ -158,45 +112,64 @@ Personalized Report
 
 ---
 
-# 🖼 Application Showcase
+## 🏗 System Architecture
 
-## 🏠 Home Page
+<p align="center">
+  <img src="docs/images/architecture_diagram.svg" alt="LoanEase System Architecture" width="70%">
+</p>
 
+The platform follows a layered pipeline: a **Streamlit** front end collects and validates
+applicant data, a processing layer engineers features, the **XGBoost** engine generates a
+prediction and probability score, and a recommendation layer turns that output into a report
+the applicant can act on.
+
+---
+
+## 🔄 Project Workflow
+
+<p align="center">
+  <img src="docs/images/workflow_diagram.svg" alt="LoanEase Project Workflow" width="80%">
+</p>
+
+---
+
+## 💻 Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Frontend | Streamlit |
+| Machine Learning | XGBoost, Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Visualization | Plotly, Matplotlib |
+| Model Optimization | Grid Search CV |
+| Validation | 5-fold cross-validation |
+
+---
+
+## 🖼 Application Showcase
+
+### 🏠 Home Page
+*Coming Soon*
+
+### 📝 Loan Application
+*Coming Soon*
+
+### 📊 Prediction Dashboard
+*Coming Soon*
+
+### 📈 Feature Importance
+*Coming Soon*
+
+### 💡 Personalized Recommendations
+*Coming Soon*
+
+### 📄 Generated Report
 *Coming Soon*
 
 ---
 
-## 📝 Loan Application
-
-*Coming Soon*
-
----
-
-## 📊 Prediction Dashboard
-
-*Coming Soon*
-
----
-
-## 📈 Feature Importance
-
-*Coming Soon*
-
----
-
-## 💡 Personalized Recommendations
-
-*Coming Soon*
-
----
-
-## 📄 Generated Report
-
-*Coming Soon*
-
----
-
-# 🚀 Getting Started
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/TashaY04/LoanRecommendation.git
@@ -212,40 +185,38 @@ streamlit run app.py
 
 ---
 
-# 📚 Documentation
+## 📚 Documentation
 
-Complete technical documentation is available in **DEVELOPER_GUIDE.md**
-
-It includes:
+Complete technical documentation is available in **[DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md)**,
+covering:
 
 - Installation
-- Project Structure
-- Model Architecture
-- Feature Engineering
+- Project structure
+- Model architecture
+- Feature engineering
 - Hyperparameters
 - Customization
 - Troubleshooting
-- Training Pipeline
+- Training pipeline
 
 ---
 
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
-- Bank API Integration
-- Explainable AI (SHAP)
-- PDF Loan Reports
-- AI Financial Assistant
-- Multi-bank Loan Comparison
-- Cloud Deployment
-- User Authentication
-- Mobile Application
+- [ ] Bank API integration
+- [ ] Explainable AI (SHAP)
+- [ ] PDF loan reports
+- [ ] AI financial assistant
+- [ ] Multi-bank loan comparison
+- [ ] Cloud deployment
+- [ ] User authentication
+- [ ] Mobile application
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
-**Tasha Y**
-
+**Tanisha Yadav**
 Computer Science Engineer • AI & Full-Stack Developer
 
 ⭐ If you found this project helpful, consider starring the repository.
