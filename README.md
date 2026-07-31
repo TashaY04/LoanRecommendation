@@ -1,13 +1,13 @@
 <h1 align="center">💳 LoanEase</h1>
 <h3 align="center">AI-Powered Loan Eligibility & Recommendation Platform</h3>
 
-<p align="center">
+<p align="right">
   An intelligent fintech platform that leverages Machine Learning to predict loan eligibility,<br>
   estimate approval probability, and deliver personalized financial recommendations through<br>
   an interactive analytics dashboard.
 </p>
 
-<p align="center">
+<p align="right">
   <img src="docs/images/banner.png" alt="LoanEase Banner" width="100%">
 </p>
 
@@ -65,22 +65,8 @@ LoanEase addresses these gaps by offering:
 
 ## ✨ Key Features
 
-<p align="center">
-  <img src="docs/images/features_overview.svg" alt="LoanEase Key Features" width="100%">
-</p>
+<img width="776" height="326" alt="Screenshot 2026-07-31 at 7 57 15 PM" src="https://github.com/user-attachments/assets/31656133-3e99-4aab-bfe1-e67bf4888b9d" />
 
-| Feature | Description |
-|---|---|
-| 🤖 AI Eligibility Prediction | Predicts loan approval using an optimized XGBoost model |
-| 📊 Confidence Analysis | Displays approval probability and confidence score |
-| 💰 EMI Calculator | Estimates monthly repayments instantly |
-| 📈 Interactive Analytics | Plotly-based charts and probability gauges |
-| 💡 Smart Recommendations | Personalized financial guidance based on applicant profile |
-| 🔍 Feature Importance | Shows key factors influencing the prediction |
-| 📄 Downloadable Report | Generates a personalized eligibility report |
-| 🔒 Privacy First | No personal information is stored |
-
----
 
 ## 🧠 Machine Learning Highlights
 
@@ -98,40 +84,17 @@ LoanEase addresses these gaps by offering:
 
 ## 📊 Model Performance
 
-<p align="center">
-  <img src="docs/images/accuracy_metrics.svg" alt="Model Performance Metrics" width="90%">
-</p>
+<img width="787" height="457" alt="Screenshot 2026-07-31 at 8 00 19 PM" src="https://github.com/user-attachments/assets/465de54d-a48e-4355-bc1e-fdcd142f866e" />
 
-| Metric | Score |
-|---|---|
-| Accuracy | **95.13%** |
-| Precision | **94.56%** |
-| Recall | **96.12%** |
-| F1 Score | **95.33%** |
-| ROC-AUC | **98.89%** |
-
----
 
 ## 🏗 System Architecture
 
-<p align="center">
-  <img src="docs/images/architecture_diagram.svg" alt="LoanEase System Architecture" width="70%">
-</p>
-
-The platform follows a layered pipeline: a **Streamlit** front end collects and validates
-applicant data, a processing layer engineers features, the **XGBoost** engine generates a
-prediction and probability score, and a recommendation layer turns that output into a report
-the applicant can act on.
-
----
+<img width="651" height="773" alt="Screenshot 2026-07-31 at 7 55 51 PM" src="https://github.com/user-attachments/assets/796c0e9c-d95f-42e5-ac28-f8d80c35ca0b" />
 
 ## 🔄 Project Workflow
 
-<p align="center">
-  <img src="docs/images/workflow_diagram.svg" alt="LoanEase Project Workflow" width="80%">
-</p>
+<img width="648" height="651" alt="Screenshot 2026-07-31 at 7 56 43 PM" src="https://github.com/user-attachments/assets/21c2491e-2f98-41f0-a00b-c125d4b1e9d4" />
 
----
 
 ## 💻 Technology Stack
 
@@ -149,25 +112,19 @@ the applicant can act on.
 
 ## 🖼 Application Showcase
 
-### 🏠 Home Page
-*Coming Soon*
+<img width="1407" height="773" alt="1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
 
-### 📝 Loan Application
-*Coming Soon*
+<img width="1426" height="767" alt="2" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
 
-### 📊 Prediction Dashboard
-*Coming Soon*
+<img width="1422" height="761" alt="3" src="https://github.com/user-attachments/assets/b49a6c69-9a08-4867-9132-a3754af719e1" />
 
-### 📈 Feature Importance
-*Coming Soon*
+<img width="1420" height="765" alt="4" src="https://github.com/user-attachments/assets/938d8a30-2994-4cc5-872b-9dfea38f4c14" />
 
-### 💡 Personalized Recommendations
-*Coming Soon*
+<img width="1418" height="763" alt="5" src="https://github.com/user-attachments/assets/d7a96125-3f8b-4fd1-b6eb-81595a7f6f97" />
 
-### 📄 Generated Report
-*Coming Soon*
+<img width="1389" height="754" alt="6" src="https://github.com/user-attachments/assets/d38ab8d4-dd79-47bc-8896-b02c2da9ece0" />
 
----
+<img width="1414" height="776" alt="last" src="https://github.com/user-attachments/assets/6df3de78-d952-44a9-9670-ddcf5aa43002" />
 
 ## 🚀 Getting Started
 
