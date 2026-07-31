@@ -1,13 +1,13 @@
 <h1 align="center">💳 LoanEase</h1>
 <h3 align="center">AI-Powered Loan Eligibility & Recommendation Platform</h3>
 
-<p align="right">
+<p align="left">
   An intelligent fintech platform that leverages Machine Learning to predict loan eligibility,<br>
   estimate approval probability, and deliver personalized financial recommendations through<br>
   an interactive analytics dashboard.
 </p>
 
-<p align="right">
+<p align="left">
   <img src="docs/images/banner.png" alt="LoanEase Banner" width="100%">
 </p>
 
