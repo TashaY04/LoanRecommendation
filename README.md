@@ -108,7 +108,8 @@ LoanEase addresses these gaps by offering:
 ---
 
 ## 🖼 Application Showcase
-
+<p>
+  <p align="center">
 <img width="1407" height="773" alt="1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
 
 <img width="1426" height="767" alt="2" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
@@ -123,6 +124,7 @@ LoanEase addresses these gaps by offering:
 
 <img width="1414" height="776" alt="last" src="https://github.com/user-attachments/assets/6df3de78-d952-44a9-9670-ddcf5aa43002" />
 
+</p>
 ## 🚀 Getting Started
 
 ```bash
