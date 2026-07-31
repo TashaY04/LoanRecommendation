@@ -61,9 +61,9 @@ LoanEase addresses these gaps by offering:
 ---
 
 ## ✨ Key Features
-
+<p align = "center">
 <img width="776" height="326" alt="Screenshot 2026-07-31 at 7 57 15 PM" src="https://github.com/user-attachments/assets/31656133-3e99-4aab-bfe1-e67bf4888b9d" />
-
+</p>
 
 ## 🧠 Machine Learning Highlights
 
@@ -80,18 +80,18 @@ LoanEase addresses these gaps by offering:
 ---
 
 ## 📊 Model Performance
-
+<p align = "center">
 <img width="787" height="457" alt="Screenshot 2026-07-31 at 8 00 19 PM" src="https://github.com/user-attachments/assets/465de54d-a48e-4355-bc1e-fdcd142f866e" />
-
+</p>
 
 ## 🏗 System Architecture
-
+<p align = "center">
 <img width="651" height="773" alt="Screenshot 2026-07-31 at 7 55 51 PM" src="https://github.com/user-attachments/assets/796c0e9c-d95f-42e5-ac28-f8d80c35ca0b" />
-
+</p>
 ## 🔄 Project Workflow
-
+<p align = "center">
 <img width="648" height="651" alt="Screenshot 2026-07-31 at 7 56 43 PM" src="https://github.com/user-attachments/assets/21c2491e-2f98-41f0-a00b-c125d4b1e9d4" />
-
+</p>
 
 ## 💻 Technology Stack
 
@@ -108,7 +108,6 @@ LoanEase addresses these gaps by offering:
 ---
 
 ## 🖼 Application Showcase
-<p>
   <p align="center">
 <img width="1407" height="773" alt="1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
 
@@ -173,6 +172,7 @@ covering:
 ## 👩‍💻 Author
 
 **Tasha Y**
+Tanisha Yadav
 Computer Science Engineer • AI & Full-Stack Developer
 
 ⭐ If you found this project helpful, consider starring the repository.
