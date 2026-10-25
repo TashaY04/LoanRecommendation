@@ -127,7 +127,7 @@ LoanEase addresses these gaps by offering:
   <p align="center">
 <img width="1407" height="773" alt="1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
 
-<img width="1407" height="773" alt="2" src="<img width="1440" height="768" alt="Screenshot 2026-10-25 at 10 52 40 AM" src="https://github.com/user-attachments/assets/e69c2530-7f13-4ceb-a125-c8de2a0216c4" />
+<img width="1440" height="768" alt="Screenshot 2026-10-25 at 10 52 40 AM" src="https://github.com/user-attachments/assets/e69c2530-7f13-4ceb-a125-c8de2a0216c4" />
 
 <img width="1426" height="767" alt="3" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
 
