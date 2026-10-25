@@ -1,5 +1,5 @@
 <h1 align="center">💳 LoanEase</h1>
-<h3 align="center">AI-Powered Loan Eligibility & Recommendation Platform</h3>
+<h3 align="center">AI-Powered Loan Eligibility & Recommendation Platform with Document Parsing</h3>
 
 <p align="left">
   An intelligent fintech platform that leverages Machine Learning to predict loan eligibility,<br>
