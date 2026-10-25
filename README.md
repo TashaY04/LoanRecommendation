@@ -127,15 +127,17 @@ LoanEase addresses these gaps by offering:
   <p align="center">
 <img width="1407" height="773" alt="1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
 
-<img width="1426" height="767" alt="2" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
+<img width="1407" height="773" alt="2" src="<img width="1440" height="768" alt="Screenshot 2026-10-25 at 10 52 40 AM" src="https://github.com/user-attachments/assets/e69c2530-7f13-4ceb-a125-c8de2a0216c4" />
 
-<img width="1422" height="761" alt="3" src="https://github.com/user-attachments/assets/b49a6c69-9a08-4867-9132-a3754af719e1" />
+<img width="1426" height="767" alt="3" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
 
-<img width="1420" height="765" alt="4" src="https://github.com/user-attachments/assets/938d8a30-2994-4cc5-872b-9dfea38f4c14" />
+<img width="1422" height="761" alt="4" src="https://github.com/user-attachments/assets/b49a6c69-9a08-4867-9132-a3754af719e1" />
 
-<img width="1418" height="763" alt="5" src="https://github.com/user-attachments/assets/d7a96125-3f8b-4fd1-b6eb-81595a7f6f97" />
+<img width="1420" height="765" alt="5" src="https://github.com/user-attachments/assets/938d8a30-2994-4cc5-872b-9dfea38f4c14" />
 
-<img width="1389" height="754" alt="6" src="https://github.com/user-attachments/assets/d38ab8d4-dd79-47bc-8896-b02c2da9ece0" />
+<img width="1418" height="763" alt="6" src="https://github.com/user-attachments/assets/d7a96125-3f8b-4fd1-b6eb-81595a7f6f97" />
+
+<img width="1389" height="754" alt="7" src="https://github.com/user-attachments/assets/d38ab8d4-dd79-47bc-8896-b02c2da9ece0" />
 
 <img width="1414" height="776" alt="last" src="https://github.com/user-attachments/assets/6df3de78-d952-44a9-9670-ddcf5aa43002" />
 
