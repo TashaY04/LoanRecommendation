@@ -4,7 +4,17 @@
 <p align="left">
   An intelligent fintech platform that leverages Machine Learning to predict loan eligibility,<br>
   estimate approval probability, and deliver personalized financial recommendations through<br>
-  an interactive analytics dashboard.
+  an interactive analytics dashboard along with a new document Parsing feature.
+
+  **Document Processing Pipeline**
+
+-> PDF Parsing: Uses Docling to process uploaded bank-statement documents.
+
+-> Structured Extraction: Extracts available text, tables, and document structure for further processing.
+
+-> Loan Assessment: Connects extracted information to the existing eligibility and recommendation workflow, where supported by the application.
+
+-> Decision Support: Combines document-derived information with the existing machine-learning model and financial analysis tools.
 </p>
 
 
@@ -43,6 +53,11 @@ Search hyperparameter tuning, and 5-fold cross-validation. The application combi
 analytics with interactive visualizations to deliver fast, explainable, and privacy-focused
 lending insights.
 
+To simplify the user experience, I introduced a **Document Parsing** feature that eliminates 
+the need for manual data entry. Users can simply upload the relevant document, and the system 
+parses it to extract the required information for the loan eligibility assessment and
+recommendation process.
+
 ---
 
 ## 🎯 Why LoanEase?
@@ -57,6 +72,7 @@ LoanEase addresses these gaps by offering:
 - 📈 Interactive dashboards
 - 🔒 Privacy-first, local inference
 - 💡 Personalized recommendations to improve eligibility
+- 👩🏻‍💻 Document Parsing eliminates the need of manual entries
 
 ---
 
@@ -103,7 +119,7 @@ LoanEase addresses these gaps by offering:
 | Data Processing | Pandas, NumPy |
 | Visualization | Plotly, Matplotlib |
 | Model Optimization | Grid Search CV |
-| Validation | 5-fold cross-validation |
+| Validation | 5-fold cross-validation | Docling |
 
 ---
 
