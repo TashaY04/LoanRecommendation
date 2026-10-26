@@ -21,8 +21,8 @@
 <a href="#getting-started">Getting started</a> ·
 <a href="#roadmap">Roadmap</a>
 </p>
-**Overview**
 
+**Overview**
 LoanEase helps an applicant find out whether they are likely to be approved for a loan, how confident the model is, and what they could change to improve their chances.
 It is built around an XGBoost classifier trained on 8,000+ loan application records. Feature engineering (18+ financial features), Grid Search tuning and 5-fold cross-validation bring it to 95%+ accuracy. A Streamlit app wraps the model with interactive Plotly charts, EMI estimates and tailored suggestions.
 The latest addition is document parsing. Instead of typing in every figure, you can upload a bank statement PDF and LoanEase reads it with Docling to pull out the information the assessment needs.
@@ -46,11 +46,11 @@ local inference, so your data stays on your machine.
 <img width="2400" height="660" alt="document-pipeline" src="https://github.com/user-attachments/assets/b1ee5c47-399f-44d9-a912-a2c1c3100fe3" />
 </p>
 
-_Upload_: you provide a bank statement as a PDF.
-_Parse:_ Docling extracts the text, tables and document structure.
-_Structure:_ the extracted content is turned into the inputs the loan assessment uses.
-_Assess:_ those inputs go through the same XGBoost model and financial analysis as a manual entry.
-_Recommend_: you get the eligibility result, probability, EMI and suggestions.
+_Upload_: you provide a bank statement as a PDF.</p>
+_Parse:_ Docling extracts the text, tables and document structure.</p>
+_Structure:_ the extracted content is turned into the inputs the loan assessment uses.</p>
+_Assess:_ those inputs go through the same XGBoost model and financial analysis as a manual entry.</p>
+_Recommend_: you get the eligibility result, probability, EMI and suggestions.</p>
 
 **Model**
 <p align="center">
@@ -78,7 +78,6 @@ Accuracy, Precision, Recall, F1, ROC-AUC
 **Architecture**
 <p align="center">
 <img width="2000" height="1120" alt="architecture" src="https://github.com/user-attachments/assets/9e26a402-71c1-47d2-8dee-d925bd561ff5" />
- alt="Architecture: interface, input, processing, model, output" width="70%">
 </p>
 
 **Workflow**
