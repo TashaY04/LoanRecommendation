@@ -85,7 +85,7 @@ Accuracy, Precision, Recall, F1, ROC-AUC
 <img width="648" alt="Project workflow" src="https://github.com/user-attachments/assets/21c2491e-2f98-41f0-a00b-c125d4b1e9d4" />
 </p>
 
-**Tech stack**
+**Tech stack**</p>
 Area
 Tools
 Language
