@@ -1,196 +1,142 @@
-<h1 align="center">💳 LoanEase</h1>
-<h3 align="center">AI-Powered Loan Eligibility & Recommendation Platform with Document Parsing</h3>
-
-<p align="left">
-  An intelligent fintech platform that leverages Machine Learning to predict loan eligibility,<br>
-  estimate approval probability, and deliver personalized financial recommendations through<br>
-  an interactive analytics dashboard along with a new document Parsing feature.
-
-  **Document Processing Pipeline**
-
--> PDF Parsing: Uses Docling to process uploaded bank-statement documents.
-
--> Structured Extraction: Extracts available text, tables, and document structure for further processing.
-
--> Loan Assessment: Connects extracted information to the existing eligibility and recommendation workflow, where supported by the application.
-
--> Decision Support: Combines document-derived information with the existing machine-learning model and financial analysis tools.
-</p>
-
-
 <p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![XGBoost](https://img.shields.io/badge/Machine%20Learning-XGBoost-006400?style=for-the-badge)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Visualization-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Accuracy](https://img.shields.io/badge/Accuracy-95%25+-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
-
+<img src="assets/banner.png" alt="LoanEase: loan eligibility prediction and recommendations from a bank statement upload" width="100%">
 </p>
-
 <p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-key-features">Features</a> •
-  <a href="#-model-performance">Performance</a> •
-  <a href="#-system-architecture">Architecture</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-future-enhancements">Roadmap</a>
+<img alt="Python" src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white">
+<img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+<img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-model-006400?style=flat-square">
+<img alt="Scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+<img alt="Docling" src="https://img.shields.io/badge/Docling-PDF parsing-1F7A6D?style=flat-square">
+<img alt="Plotly" src="https://img.shields.io/badge/Plotly-charts-3F4F75?style=flat-square&logo=plotly&logoColor=white">
+<img alt="Accuracy" src="https://img.shields.io/badge/accuracy-95%25+-brightgreen?style=flat-square">
+<img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square">
 </p>
-
----
-
-## 📖 Overview
-
-**LoanEase** is an AI-powered financial decision-support platform designed to simplify the loan
-application process by predicting applicant eligibility and recommending suitable loan options
-based on an individual's financial profile.
-
-Powered by an optimized **XGBoost classifier** trained on **8,000+ loan application records**,
-the system achieves **95%+ prediction accuracy** through advanced feature engineering, Grid
-Search hyperparameter tuning, and 5-fold cross-validation. The application combines predictive
-analytics with interactive visualizations to deliver fast, explainable, and privacy-focused
-lending insights.
-
-To simplify the user experience, I introduced a **Document Parsing** feature that eliminates 
-the need for manual data entry. Users can simply upload the relevant document, and the system 
-parses it to extract the required information for the loan eligibility assessment and
-recommendation process.
-
----
-
-## 🎯 Why LoanEase?
-
-Traditional loan approval processes are often slow, opaque, and hard for applicants to interpret.
-LoanEase addresses these gaps by offering:
-
-- ⚡ Instant loan eligibility prediction
-- 🤖 AI-powered decision support
-- 📊 Confidence scores and explainable insights
-- 💰 EMI estimation and financial analysis
-- 📈 Interactive dashboards
-- 🔒 Privacy-first, local inference
-- 💡 Personalized recommendations to improve eligibility
-- 👩🏻‍💻 Document Parsing eliminates the need of manual entries
-
----
-
-## ✨ Key Features
-<p align = "center">
-<img width="776" height="326" alt="Screenshot 2026-07-31 at 7 57 15 PM" src="https://github.com/user-attachments/assets/31656133-3e99-4aab-bfe1-e67bf4888b9d" />
+<p align="center">
+<a href="#overview">Overview</a> ·
+<a href="#features">Features</a> ·
+<a href="#document-parsing">Document parsing</a> ·
+<a href="#model">Model</a> ·
+<a href="#architecture">Architecture</a> ·
+<a href="#screenshots">Screenshots</a> ·
+<a href="#getting-started">Getting started</a> ·
+<a href="#roadmap">Roadmap</a>
 </p>
-
-## 🧠 Machine Learning Highlights
-
-| Attribute | Details |
-|---|---|
-| Algorithm | XGBoost Classifier |
-| Dataset Size | 8,000+ loan applications |
-| Accuracy | **95%+** |
-| Feature Engineering | 18+ engineered financial features |
-| Hyperparameter Tuning | Grid Search CV |
-| Validation | 5-fold cross-validation |
-| Metrics | Accuracy • Precision • Recall • F1 • ROC-AUC |
-
----
-
-## 📊 Model Performance
-<p align = "center">
-<img width="787" height="457" alt="Screenshot 2026-07-31 at 8 00 19 PM" src="https://github.com/user-attachments/assets/465de54d-a48e-4355-bc1e-fdcd142f866e" />
+Overview
+LoanEase helps an applicant find out whether they are likely to be approved for a loan, how confident the model is, and what they could change to improve their chances.
+It is built around an XGBoost classifier trained on 8,000+ loan application records. Feature engineering (18+ financial features), Grid Search tuning and 5-fold cross-validation bring it to 95%+ accuracy. A Streamlit app wraps the model with interactive Plotly charts, EMI estimates and tailored suggestions.
+The latest addition is document parsing. Instead of typing in every figure, you can upload a bank statement PDF and LoanEase reads it with Docling to pull out the information the assessment needs.
+LoanEase is a decision-support project. Its output is a prediction, not a lending decision.
+Why I built it
+Loan decisions are usually slow and hard to read from the applicant's side. People get a yes or no without knowing why. LoanEase tries to fix that with:
+an instant eligibility prediction
+a confidence score next to every result
+EMI estimates and a simple financial analysis
+suggestions on what to improve
+no manual data entry when a bank statement is available
+local inference, so your data stays on your machine
+Features
+<p align="center">
+<img src="assets/features.png" alt="Key features: document parsing, eligibility prediction, approval probability, EMI estimation, loan recommendations, improvement tips, interactive dashboard, local inference" width="100%">
 </p>
-
-## 🏗 System Architecture
-<p align = "center">
-<img width="651" height="773" alt="Screenshot 2026-07-31 at 7 55 51 PM" src="https://github.com/user-attachments/assets/796c0e9c-d95f-42e5-ac28-f8d80c35ca0b" />
+Document parsing
+<p align="center">
+<img src="assets/document-pipeline.png" alt="Pipeline: upload a bank statement PDF, parse it with Docling, structure the fields, assess with the model, get a recommendation" width="100%">
 </p>
-## 🔄 Project Workflow
-<p align = "center">
-<img width="648" height="651" alt="Screenshot 2026-07-31 at 7 56 43 PM" src="https://github.com/user-attachments/assets/21c2491e-2f98-41f0-a00b-c125d4b1e9d4" />
+Upload: you provide a bank statement as a PDF.
+Parse: Docling extracts the text, tables and document structure.
+Structure: the extracted content is turned into the inputs the loan assessment uses.
+Assess: those inputs go through the same XGBoost model and financial analysis as a manual entry.
+Recommend: you get the eligibility result, probability, EMI and suggestions.
+Model
+<p align="center">
+<img src="assets/ml-highlights.png" alt="Model at a glance: 8,000+ records, 18+ engineered features, 95%+ accuracy, 5-fold cross-validation" width="100%">
 </p>
-
-## 💻 Technology Stack
-
-| Category | Technologies |
-|---|---|
-| Programming | Python |
-| Frontend | Streamlit |
-| Machine Learning | XGBoost, Scikit-learn |
-| Data Processing | Pandas, NumPy |
-| Visualization | Plotly, Matplotlib |
-| Model Optimization | Grid Search CV |
-| Validation | 5-fold cross-validation | Docling |
-
----
-
-## 🖼 Application Showcase
-  <p align="center">
-<img width="1407" height="773" alt="1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
-
-<img width="1440" height="768" alt="Screenshot 2026-10-25 at 10 52 40 AM" src="https://github.com/user-attachments/assets/e69c2530-7f13-4ceb-a125-c8de2a0216c4" />
-
-<img width="1426" height="767" alt="3" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
-
-<img width="1422" height="761" alt="4" src="https://github.com/user-attachments/assets/b49a6c69-9a08-4867-9132-a3754af719e1" />
-
-<img width="1420" height="765" alt="5" src="https://github.com/user-attachments/assets/938d8a30-2994-4cc5-872b-9dfea38f4c14" />
-
-<img width="1418" height="763" alt="6" src="https://github.com/user-attachments/assets/d7a96125-3f8b-4fd1-b6eb-81595a7f6f97" />
-
-<img width="1389" height="754" alt="7" src="https://github.com/user-attachments/assets/d38ab8d4-dd79-47bc-8896-b02c2da9ece0" />
-
-<img width="1414" height="776" alt="last" src="https://github.com/user-attachments/assets/6df3de78-d952-44a9-9670-ddcf5aa43002" />
-
+Algorithm
+XGBoost classifier
+Data
+8,000+ loan applications
+Features
+18+ engineered financial features
+Tuning
+Grid Search CV
+Validation
+5-fold cross-validation
+Metrics
+Accuracy, Precision, Recall, F1, ROC-AUC
+Performance
+<p align="center">
+<img width="787" alt="Model performance" src="https://github.com/user-attachments/assets/465de54d-a48e-4355-bc1e-fdcd142f866e" />
 </p>
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/TashaY04/LoanRecommendation.git
-
+Architecture
+<p align="center">
+<img src="assets/architecture.png" alt="Architecture: interface, input, processing, model, output" width="70%">
+</p>
+Workflow
+<p align="center">
+<img width="648" alt="Project workflow" src="https://github.com/user-attachments/assets/21c2491e-2f98-41f0-a00b-c125d4b1e9d4" />
+</p>
+Tech stack
+Area
+Tools
+Language
+Python
+App
+Streamlit
+Machine learning
+XGBoost, scikit-learn
+Document parsing
+Docling
+Data
+pandas, NumPy
+Charts
+Plotly, Matplotlib
+Tuning and validation
+Grid Search CV, 5-fold cross-validation
+Screenshots
+<p align="center">
+<img width="49%" alt="LoanEase screenshot 1" src="https://github.com/user-attachments/assets/d67a5a60-448b-4cb8-937a-aa0fe553c2e1" />
+<img width="49%" alt="LoanEase screenshot 2" src="https://github.com/user-attachments/assets/e69c2530-7f13-4ceb-a125-c8de2a0216c4" />
+</p>
+<p align="center">
+<img width="49%" alt="LoanEase screenshot 3" src="https://github.com/user-attachments/assets/8c23d1bb-5290-4af9-a08c-7aad076013ff" />
+<img width="49%" alt="LoanEase screenshot 4" src="https://github.com/user-attachments/assets/b49a6c69-9a08-4867-9132-a3754af719e1" />
+</p>
+<p align="center">
+<img width="49%" alt="LoanEase screenshot 5" src="https://github.com/user-attachments/assets/938d8a30-2994-4cc5-872b-9dfea38f4c14" />
+<img width="49%" alt="LoanEase screenshot 6" src="https://github.com/user-attachments/assets/d7a96125-3f8b-4fd1-b6eb-81595a7f6f97" />
+</p>
+<p align="center">
+<img width="49%" alt="LoanEase screenshot 7" src="https://github.com/user-attachments/assets/d38ab8d4-dd79-47bc-8896-b02c2da9ece0" />
+<img width="49%" alt="LoanEase screenshot 8" src="https://github.com/user-attachments/assets/6df3de78-d952-44a9-9670-ddcf5aa43002" />
+</p>
+Getting started
+git clone <https://github.com/TashaY04/LoanRecommendation.git>
 cd LoanRecommendation
 
 pip install -r requirements_streamlit.txt
 
-python train_model.py
+python train_model.py      # trains and saves the model
+streamlit run app.py       # starts the app
+​
+Full technical notes (project structure, feature engineering, hyperparameters, customization, troubleshooting) are in DEVELOPER_GUIDE.md.
+Roadmap
 
-streamlit run app.py
-```
+Bank API integration
 
----
+Explainable AI with SHAP
 
-## 📚 Documentation
+PDF loan reports
 
-Complete technical documentation is available in **[DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md)**,
-covering:
+AI financial assistant
 
-- Installation
-- Project structure
-- Model architecture
-- Feature engineering
-- Hyperparameters
-- Customization
-- Troubleshooting
-- Training pipeline
+Multi-bank loan comparison
 
----
+Cloud deployment
 
-## 🔮 Future Enhancements
+User authentication
 
-- [ ] Bank API integration
-- [ ] Explainable AI (SHAP)
-- [ ] PDF loan reports
-- [ ] AI financial assistant
-- [ ] Multi-bank loan comparison
-- [ ] Cloud deployment
-- [ ] User authentication
-- [ ] Mobile application
-
----
-
-## 👩‍💻 Author
-
-**Tasha Y**
-Tanisha Yadav
-Computer Science Engineer • AI & Full-Stack Developer
-
-⭐ If you found this project helpful, consider starring the repository.
+Mobile app
+Author
+Tanisha Yadav (@TashaY04)
+Computer Science Engineer · AI and full-stack developer
+If the project helped you, a star on the repo is always appreciated.
