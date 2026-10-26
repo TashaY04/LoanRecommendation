@@ -1,5 +1,6 @@
 <p align="center">
-<img src="assets/banner.png" alt="LoanEase: loan eligibility prediction and recommendations from a bank statement upload" width="100%">
+<img width="2560" height="640" alt="banner" src="https://github.com/user-attachments/assets/99a26e81-03fe-4fa1-8bcf-a7b1b88a2557" />
+" alt="LoanEase: loan eligibility prediction and recommendations from a bank statement upload" width="100%">
 </p>
 <p align="center">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -36,11 +37,12 @@ no manual data entry when a bank statement is available
 local inference, so your data stays on your machine
 Features
 <p align="center">
-<img src="assets/features.png" alt="Key features: document parsing, eligibility prediction, approval probability, EMI estimation, loan recommendations, improvement tips, interactive dashboard, local inference" width="100%">
-</p>
+<img width="2400" height="1040" alt="features" src="https://github.com/user-attachments/assets/82a35c86-5c6f-4453-9530-14fdb4a69b3f" />
+
 Document parsing
 <p align="center">
-<img src="assets/document-pipeline.png" alt="Pipeline: upload a bank statement PDF, parse it with Docling, structure the fields, assess with the model, get a recommendation" width="100%">
+<img width="2400" height="660" alt="document-pipeline" src="https://github.com/user-attachments/assets/b1ee5c47-399f-44d9-a912-a2c1c3100fe3" />
+ alt="Pipeline: upload a bank statement PDF, parse it with Docling, structure the fields, assess with the model, get a recommendation" width="100%">
 </p>
 Upload: you provide a bank statement as a PDF.
 Parse: Docling extracts the text, tables and document structure.
@@ -49,7 +51,8 @@ Assess: those inputs go through the same XGBoost model and financial analysis as
 Recommend: you get the eligibility result, probability, EMI and suggestions.
 Model
 <p align="center">
-<img src="assets/ml-highlights.png" alt="Model at a glance: 8,000+ records, 18+ engineered features, 95%+ accuracy, 5-fold cross-validation" width="100%">
+<img width="2400" height="860" alt="ml-highlights" src="https://github.com/user-attachments/assets/13a0e72a-7406-49a6-9910-600794912e3f" />
+ alt="Model at a glance: 8,000+ records, 18+ engineered features, 95%+ accuracy, 5-fold cross-validation" width="100%">
 </p>
 Algorithm
 XGBoost classifier
@@ -69,7 +72,8 @@ Performance
 </p>
 Architecture
 <p align="center">
-<img src="assets/architecture.png" alt="Architecture: interface, input, processing, model, output" width="70%">
+<img width="2000" height="1120" alt="architecture" src="https://github.com/user-attachments/assets/9e26a402-71c1-47d2-8dee-d925bd561ff5" />
+ alt="Architecture: interface, input, processing, model, output" width="70%">
 </p>
 Workflow
 <p align="center">
